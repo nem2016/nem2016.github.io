@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NEM At Centennial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="NEMWebsiteStyle.css">
+<script>
+$(document).ready(function(){
+
+      $("#updateImage1").hover(function(){
+      	$("#updateImage2").hide();
+      	$("#rightColShow").hide();
+      	$("#leftColShow").hide();
+      	$("#hiddenRow").show();
+      	$("#updateImage").css("border","solid 1px blue");
+      	$("#updateImage").css("height","400px");
+      	$("#updateImage").css("overflow-y","scroll");
+
+      	var myImage = $('<img/>');
+		                 myImage.attr('width', 800);
+		                 myImage.attr('height', 1318);
+               			 myImage.attr('src', 'images/file-page2.png');
+               			 myImage.attr( "id", "myImg" )
+      	myImage.appendTo($('#updateImage'));
+     	},
+      	function(){
+      		$("#updateImage2").stop().show();
+    	});
+
+  	$("#hiddenRow").hover(function(){
+
+	      	},
+	      	function(){
+	      $("#rightColShow").stop().show();
+		  $("#leftColShow").stop().show();
+          $("#hiddenRow").hide();
+          $("#myImg").remove();
+    });
+
+    $("#updateImage2").hover(function(){
+         	$("#updateImage1").hide();
+         	$("#rightColShow").hide();
+		    $("#leftColShow").hide();
+		    $("#hiddenRow").show();
+		    $("#updateImage").css("border","solid 1px blue");
+		    $("#updateImage").css("height","400px");
+		    $("#updateImage").css("overflow-y","scroll");
+
+		    var myImage = $('<img/>');
+		 	             myImage.attr('width', 800);
+		 	             myImage.attr('height', 1237);
+		           		 myImage.attr('src', 'images/111_poster2.png');
+		           		 myImage.attr( "id", "myImg" )
+		    myImage.appendTo($('#updateImage'));
+		    },
+	      	function(){
+	      $("#updateImage1").stop().show();
+    });
+});
+</script>
+</head>
+<body>
+<!--navigation section starts -->
+<nav id="navigationSection" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">NEM At Centennial</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a class="dropdown-toggle" data-toggle="dropdown" href="#">Home<span class="caret"></span></a>
+
+         <ul class="dropdown-menu">
+		    <li><a href="index.html#eventLink">Event</a></li>
+		    <li><a href="index.html#nemLink">NEM</a></li>
+		    <li><a href="index.html#guestsLink">Guest Speakers</a></li>
+		    <li><a href="index.html#partnersLink">Partners</a></li>
+		    <li><a href="index.html#organizersLink">Organizers</a></li>
+		    <li><a href="index.html#nem2014Link">NEM 2014</a></li>
+		    <li><a href="index.html#centennialLink">Centennial College</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="about.html#whatsNEMLink">NEM</a></li>
+            <li><a href="about.html#guidelinesLink">Guidelines</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="#">Updates</a>
+          </li>
+        <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Photos<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="photos.html#photos2015Link">NEM 2015</a></li>
+            <li><a href="photos.html#photos2014Link">NEM 2014</a></li>
+          </ul>
+          </li>
+         <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Links<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+       <li><a href="links.html#engineeringLink">Engineering</a></li>
+			<li><a href="links.html#guestSpeakersLink">Guests</a></li>
+			<li><a href="links.html#fundraisingLink">Fundraising</a></li>
+			<li><a href="links.html#blogsLink">Science</a></li>
+			<li><a href="links.html#jobsLink">Job Search</a></li>
+            <li><a href="links.html#companiesLink">Companies</a></li>
+          </ul>
+          </li>
+          <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Us<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+           <li><a href="contact.html#facebookLink">Facebook</a></li>
+            <li><a href="contact.html#locationLink">Location</a></li>
+              <li><a href="contact.html#emailLink">Email</a></li>
+          </ul>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--navigation section ends -->
+
+
+<!--banner section starts -->
+<a  name="bannerLink" ></a>
+<div id="bannerSection" class="jumbotron">
+
+	<div class="row">
+ 	 <div class="col-sm-12">
+ 	 	<h3 style="color:white;">National Engineering Month At Centennial College</h3>
+  		<h4 style="color:#F45145;"> Multidisciplinary Science for a Better Society </h4>
+  	</div>
+	</div>
+
+	<!--
+		<div class="row">
+			  <div id="registerForNem" class="col-sm-4 col-sm-offset-8 ">
+				  <a href="http://www.eventbrite.ca/e/multidisciplinary-science-for-a-better-society-centennial-college-nem-tickets-15809602948?aff=eac2" target="_blank">
+					<img src="images/freeTicket1.png">
+				  </a>
+			  </div>
+		</div>
+	-->
+</div>
+<!--banner section ends -->
+
+
+<!-- content 1 section starts -->
+<a  name="infographicLink" ></a>
+<div id="infographicSection" class="container-fluid">
+
+	<div class="row">
+	  <div class="col-sm-2"></div>
+  		<div class="col-sm-4"><h3><a href="images/file-page2.png">Letter From Organizers</a></h3></div>
+    	<div class="col-sm-4"><h3><a href="images/111_poster2.png">Poster For The Event</a></h3></div>
+	  <div class="col-sm-2"></div>
+	</div>
+
+	<div class="row">
+	 	<div class="col-sm-2"></div>
+	 	<div hidden id="hiddenRow" class="col-sm-8"><h3><a id="linkToUpdateImage"></a></h3><div id="updateImage"></div></div>
+		<div id="rightColShow" class="col-sm-4">
+			 <a href="images/file-page1.png" download="letter_NEM2015"><div id="updateImage1"></div></a>
+		</div>
+		<div id="leftColShow"  class="col-sm-4">
+			  <a href="images/111_poster1.png" download="poster_NEM2015"><div id="updateImage2"></div></a>
+		</div>
+	   	<div class="col-sm-2"></div>
+	</div>
+</div>
+
+<!-- content 1 section ends -->
+
+
+
+
+
+
+<!-- footer section starts -->
+<div id="footerSection" class="jumbotron">
+	<div class="row">
+  		<div class="col-sm-12"><h6 style="color:white;">&#169;Copyright 2015</h6></div>
+     	<div class="col-sm-12"><h6 style="color:white;">Web Content: Natalie Tripp; Web Development: Liliya Artyukh</h6></div>
+	</div>
+</div>
+<!-- footer section ends -->
+
+</body>
+</html>

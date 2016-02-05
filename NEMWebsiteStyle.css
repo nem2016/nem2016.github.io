@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Merriweather+Sans:400,300,700);
+
+body {
+font-family: Oswald,sans-serif;
+}
+
+* {
+b order: solid 1px green;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Oswald,sans-serif;
+}
+
+#navigationSection{
+margin-bottom: 0px;
+
+}
+
+#bannerSection{
+background-color: #242D36;
+height: 250px;
+margin-bottom: 0px;
+}
+
+#registerForNem{
+b  ackground-color: orange;
+c olor: white;
+}
+
+#footerSection {
+margin-bottom: 0px;
+background-color: #242D36;
+text-align: center;
+}
+
+.titles {
+color: #F45145;
+ font-size: 280%;
+ font-weight: 600;
+f ont-family: "Times New Roman", Georgia, Serif;
+}
+
+
+#infographicSection {
+margin-top: 0px;
+}
+
+.speakerCompany {
+font-size: 130%;
+margin-top: 5px;
+}
+
+.speakerTitle {
+font-size: 130%;
+margin-top: 5px;
+}
+
+.speakerTopic {
+font-size: 150%;
+ font-weight: 600;
+color: #F45145;
+    display: inline;
+}
+
+.speakerName {
+ font-weight: 600;
+}
+
+.speakerTime {
+padding-top: 20px;
+font-size: 120%;
+ font-weight: 800;
+ color: blue;
+}
+
+#p rogram {
+width: 300px;
+heigth; 200px;
+}
+
+#updateImage1 {
+position:relative;
+    width: 300px;
+    height: 494px;
+    border: solid 1px #D3D3D3;
+    b ackground: red;
+    -w ebkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    t ransition: width 0.5s, height 0.5s;
+    background-image: url("images/file-page1.png");
+}
+
+#updateImage1:hover {
+ba ckground-image: url("images/file-page2.png");
+    t ransition: width 2s, height 2s;
+     border: solid 1px #D3D3D3;
+    w idth: 800px;
+    h eight: 1318px;
+}
+
+
+#updateImage2 {
+position:relative;
+    width: 300px;
+    height: 464px;
+    b ackground: red;
+    -w ebkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    t ransition: width 0.5s, height 0.5s;
+    background-image: url("images/111_poster1.png");
+}
+
+#updateImage2:hover {
+ba ckground-image: url("images/111_poster2.png");
+    t ransition: width 2s, height 2s;
+    w idth: 800px;
+    h eight: 1237px;
+}
+			
